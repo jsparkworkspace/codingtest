@@ -5,9 +5,9 @@ class Solution {
         String b = "";
         for (int i = 0; i < num_list.length; i++) {
             if (num_list[i] % 2 == 1) {
-                a += Integer.toString(num_list[i]);
+                a += num_list[i];
             } else {
-                b += Integer.toString(num_list[i]);
+                b += num_list[i];
             }
         }
         
