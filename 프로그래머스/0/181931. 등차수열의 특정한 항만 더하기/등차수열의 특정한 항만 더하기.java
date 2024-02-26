@@ -3,8 +3,7 @@ class Solution {
         int answer = 0;
         int num = a;
         for (int i = 0; i < included.length; i++) {
-            
-            if (included[i] == true) {
+            if (included[i]) {
                 answer += num;
             }
             num+=d;
