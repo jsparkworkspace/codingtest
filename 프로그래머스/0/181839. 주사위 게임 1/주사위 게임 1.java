@@ -8,6 +8,6 @@ class Solution {
         } else { 
             answer = a - b < 0 ? b - a : a - b;
         }
-        return answer;
+        return answer; 
     }
 }
